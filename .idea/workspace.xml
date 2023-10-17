@@ -7,6 +7,7 @@
     <list default="true" id="07f2f4f6-e212-47e9-aa78-4813f7429eaf" name="Changes" comment="Começando com React!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1697043514404" duration="2794000" />
       <workItem from="1697460144059" duration="8939000" />
       <workItem from="1697480829357" duration="1600000" />
-      <workItem from="1697560452181" duration="5735000" />
+      <workItem from="1697560452181" duration="6414000" />
     </task>
     <task id="LOCAL-00001" summary="Começando com React!">
       <created>1693026876781</created>
