@@ -186,7 +186,7 @@ h1 {
 .pyramid-loader .wrapper .shadow {
   width: 60px;
   height: 60px;
-  background: #8B5AD5;
+  background: black;
   position: absolute;
   top: 0;
   left: 0;
