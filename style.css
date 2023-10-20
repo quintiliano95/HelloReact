@@ -198,8 +198,9 @@ h1 {
 }
 
 .container {
-    display: flex;
-    justify-content: space-between; /* Espaçamento entre as colunas */
+  display: flex;
+  justify-content: space-between; /* Espaçamento entre as colunas */
+  margin-top: 30px;
 }
 
 .foto {
