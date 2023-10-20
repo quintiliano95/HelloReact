@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07f2f4f6-e212-47e9-aa78-4813f7429eaf" name="Changes" comment="Começando com React!" />
+    <list default="true" id="07f2f4f6-e212-47e9-aa78-4813f7429eaf" name="Changes" comment="Começando com React!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +92,7 @@
       <workItem from="1697646556383" duration="1153000" />
       <workItem from="1697737795747" duration="2492000" />
       <workItem from="1697818381482" duration="7639000" />
+      <workItem from="1697834385964" duration="9573000" />
     </task>
     <task id="LOCAL-00001" summary="Começando com React!">
       <created>1693026876781</created>
