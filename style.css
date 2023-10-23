@@ -250,7 +250,7 @@ h1 {
 }
 
 .input {
-  display: inline-flex;
+  display: inline-grid;
   font-family: 'Segoe UI', sans-serif;
   margin: 1em 0 1em 0;
   max-width: 100%;
@@ -290,3 +290,33 @@ h1 {
   border-color: rgb(37, 37, 211);
 }
 
+.borda-input {
+  display: inline-grid;
+  border: 2px solid rgb(141, 109, 255);
+  border-radius: 20px;
+  padding: 25px;
+  width: 25%;
+}
+
+.input textarea {
+  font-size: 100%;
+  color: #D8CCE6;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 0.8em;
+  outline: none;
+  border: 2px solid rgb(141, 109, 255);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+  resize: vertical;
+}
+
+.input textarea:focus + label,
+.input textarea:valid + label {
+  transform: translateY(-50%) scale(.9);
+  margin: 0 0 0 1.3em;
+  padding: 0.4em;
+  background-color: #212121;
+  font-size: 100%;
+  color: #D8CCE6;
+}
