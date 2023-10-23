@@ -6,21 +6,25 @@
     <title>Alexandre Quintiliano</title>
 </head>
 <body>
+    <!-- Início da seção de cabeçalho -->
     <header>
         <nav>
             <ul class="nav">
                 <li><a href="">Início</a></li>
                 <li><a href="#sobre_mim">Sobre Mim</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="https://www.linkedin.com/in/alexandre-quintiliano-561633152/">Contato</a></li>
-                <li><a href="https://github.com/quintiliano95">Portifólio</a>
+                <li><a href="#conhecimentos">Conhecimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://www.linkedin.com/in/alexandre-quintiliano-561633152/">Linkedin</a></li> <!-- Item de menu com link externo para o Linkedin -->
+                <li><a href="https://github.com/quintiliano95">Portifólio</a> <!-- Item de menu com link externo para o GitHub -->
             </ul>
         </div>
         </nav>
     </header>
+    <!-- Fim da seção de cabeçalho -->
 
+    <!-- Início da seção de conteúdo principal -->
     <div class="container">
-        <div class="foto">
+        <div class="foto"> <!-- Div para imagem principal e texto -->
             <div class="texto1">
                 <h1>Bem-vindo ao meu portfólio pessoal</h1>
             </div>
@@ -30,11 +34,27 @@
             </div>
         </div>
     </div>
+    <!-- Fim da seção de conteúdo principal -->
 
-     <div class="texto1" id="sobre_mim" style="margin-top: 150px; margin-bottom: 150px">
+    <!-- Seção "Sobre Mim" -->
+     <div class="texto1" id="sobre_mim">
          <h1>SOBRE MIM</h1>
 
-         <div class="cards-align" style="height: 500px;">
+         <p>Meu nome é Alexandre Quintiliano, e sou um profissional apaixonado por tecnologia e administração. Em 2021, completei minha graduação em Administração pela Faculdade Padre João Bagozzi, uma instituição que sempre primou pela excelência acadêmica e proporcionou uma base sólida para o meu desenvolvimento profissional.<br><br>
+
+            Atualmente, estou dando continuidade à minha trajetória acadêmica no campo da tecnologia, cursando o 4º período de Análise e Desenvolvimento de Sistemas na Universidade Uninter. Essa jornada tem sido enriquecedora, pois tenho a oportunidade de explorar, adquirir habilidades e conhecimentos valiosos para o mundo contemporâneo.<br><br>
+
+            Para complementar minha formação e ganhar experiência prática, estou realizando um estágio na empresa A1 Engenharia. Nesse ambiente dinâmico e desafiador, tenho a oportunidade de aplicar meu conhecimento e, ao mesmo tempo, expandir minhas habilidades em desenvolvimento de aplicações web. Estou envolvido em projetos que utilizam o framework Django, o que tem sido uma experiência gratificante.<br><br>
+
+            Meu compromisso com o aprendizado contínuo e minha paixão por explorar novos horizontes na tecnologia me motivam diariamente. Acredito que o desenvolvimento de sistemas me proporcionará uma perspectiva única para enfrentar desafios no mundo dos negócios e da tecnologia, e estou ansioso para o que o futuro reserva em minha jornada profissional.
+        </p>
+    <!-- Fim da seção "Sobre Mim" -->
+
+     <!-- Início da seção "Conhecimentos" -->
+    <div class="texto1" style="margin-top: 150px;">
+        <div id="conhecimentos">
+            <h1>CONHECIMENTOS</h1>
+            <div class="cards-align" style="height: 500px;">
             <div id="card1" class="card">
                   <b></b>
                   <div class="content">
@@ -73,18 +93,39 @@
                         <span class="shadow"></span>
                       </div>
                     </div>
-                    <p>Carreira em desenvolvimento na área de Tecnologia<br>
-                        Cursando Análise e Desenvolvimento de Sistemas – 4° Período<br>
+                    <p>Carreira em desenvolvimento na área de Tecnologia<br><br>
+                        Cursando Análise e Desenvolvimento de Sistemas – 4° Período<br><br>
+                        Inglês Intermediário<br><br>
                         Excel Avançado<br><br>
                     </p>
               </div>
             </div>
          </div>
+        </div>
     </div>
+    </div>
+    <!-- Fim da seção "Conhecimentos" -->
 
-    <section id="formacao">
-
-
-    </section>
+    <!-- Início da seção "Contato" -->
+    <div class="texto1">
+        <h1>CONTATO</h1>
+        <div id="contato">
+            <div class="input borda-input">
+                <div class="input">
+                    <input type="text" id="name" required="" autocomplete="off">
+                    <label for="name">Nome</label>
+                </div>
+                <div class="input">
+                    <input type="text" id="email" required="" autocomplete="off">
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="input">
+                  <textarea id="mensagem" required="" autocomplete="off"></textarea>
+                  <label for="mensagem">Mensagem</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim da seção "Contato" -->
 </body>
 </html>
