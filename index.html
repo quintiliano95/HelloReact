@@ -9,8 +9,8 @@
     <!-- Início da seção de cabeçalho -->
     <header>
         <nav>
-            <ul class="nav">
-                <li><a href="">Início</a></li>
+            <ul class="nav" id="menu">
+                <li><a href="#inicio">Início</a></li>
                 <li><a href="#sobre_mim">Sobre Mim</a></li>
                 <li><a href="#conhecimentos">Conhecimentos</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -23,7 +23,7 @@
     <!-- Fim da seção de cabeçalho -->
 
     <!-- Início da seção de conteúdo principal -->
-    <div class="container">
+    <div class="container" id="inicio">
         <div class="foto"> <!-- Div para imagem principal e texto -->
             <div class="texto1">
                 <h1>Bem-vindo ao meu portfólio pessoal</h1>
@@ -51,8 +51,7 @@
     <!-- Fim da seção "Sobre Mim" -->
 
      <!-- Início da seção "Conhecimentos" -->
-    <div class="texto1" style="margin-top: 150px;">
-        <div id="conhecimentos">
+    <div class="texto1" id="conhecimentos" style="margin-top: 150px;">
             <h1>CONHECIMENTOS</h1>
             <div class="cards-align" style="height: 500px;">
             <div id="card1" class="card">
@@ -101,7 +100,6 @@
               </div>
             </div>
          </div>
-        </div>
     </div>
     </div>
     <!-- Fim da seção "Conhecimentos" -->
@@ -127,5 +125,55 @@
         </div>
     </div>
     <!-- Fim da seção "Contato" -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Selecione todos os links no menu de navegação
+        const links = document.querySelectorAll(".nav a");
+
+        // Adicione um ouvinte de evento de clique a cada link
+        links.forEach(function(link) {
+            link.addEventListener("click", function(e) {
+                e.preventDefault(); // Evita o comportamento padrão de navegação
+
+                // Obtenha o ID da seção de destino do atributo href
+                const targetId = this.getAttribute("href").slice(1);
+
+                // Selecione a seção de destino com base no ID
+                const targetSection = document.getElementById(targetId);
+
+                if (targetSection) {
+                    // Role suavemente para a seção de destino
+                    targetSection.scrollIntoView({
+                        behavior: "smooth"
+                    });
+                }
+            });
+        });
+    });
+
+    // Selecione a barra de navegação pelo ID
+    const navBar = document.getElementById("menu");
+
+    // Determine a posição a partir da qual você deseja diminuir o tamanho
+    const scrollThreshold = 100; // Exemplo: 100 pixels
+
+    // Adicione um ouvinte de evento de rolagem à janela
+    window.addEventListener("scroll", function() {
+        // Verifique a posição vertical da página
+        if (window.scrollY > scrollThreshold) {
+            // A página foi rolada para baixo além do limite
+            // Aplicar estilos adicionais para diminuir o tamanho da barra de navegação
+            navBar.style.height = "25px"; // Altura menor
+            // Adicione outros estilos desejados, como alteração de cores, margens, etc.
+        } else {
+            // A página está acima do limite
+            // Restaure os estilos originais da barra de navegação
+            navBar.style.height = "25px"; // Altura original
+            // Restaure outros estilos, se necessário
+        }
+    });
+
+</script>
+
 </body>
 </html>

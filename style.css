@@ -233,7 +233,7 @@ h1 {
 }
 
 .texto1 {
-  margin-top: 25px;
+  margin-top: 35px;
   padding: 25px;
   font-family: 'Chalkduster', cursive;
   justify-content: space-around;
@@ -317,4 +317,15 @@ h1 {
   background-color: #212121;
   font-size: 100%;
   color: #D8CCE6;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #2f312f;
+  z-index: 10;
+  margin-top: 0;
+  height: 50px;
+  transition: height 0.3s;
 }
