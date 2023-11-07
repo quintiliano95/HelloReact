@@ -329,3 +329,39 @@ h1 {
   height: 50px;
   transition: height 0.3s;
 }
+
+footer {
+    background-color: transparent;
+    color: whitesmoke;
+    display: flex;
+    gap: 80px;
+    padding: 64px 80px;
+    justify-content: space-evenly;
+}
+
+footer .nav2 a {
+  display: block;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 100%;
+  color: #D8CCE6;
+}
+
+footer p a {
+    color: cornflowerblue;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+#copyright {
+    background-color: #263138;
+    color: #03a9f4;
+    padding: 24px;
+    text-align: center;
+}
+
+#copyright a {
+    color: ;
+}
