@@ -26,7 +26,7 @@ setTimeout(() => {
         allowEscapeKey: false,
         allowEnterKey: false,
         background: 'linear-gradient(#E0F6FF, #87CEEB)',
-        imageUrl: "images/marioDancing.gif",
+        imageUrl: "imagens/marioDancing.gif",
 
     }).then((result) => {
         if (result.isConfirmed) {
@@ -49,7 +49,7 @@ function startMario() {
             mario.style.animation = 'none';
             mario.style.bottom = `${marioPosition}px`;
 
-            mario.src = 'images/game-over.png'
+            mario.src = 'imagens/game-over.png'
             mario.style.width = '80px'
             mario.style.left = '50px'
             Swal.fire({
@@ -63,7 +63,7 @@ function startMario() {
                     '          <div id="square5"></div>\n' +
                     '        </div>' +
                     '        <div class="open" id="open">\n' +
-                    '          <img src="images/mario-bros-xd.gif">\n' +
+                    '          <img src="imagens/mario-bros-xd.gif">\n' +
                     '          </div>',
                 showCancelButton: true,
                 confirmButtonText: `Reiniciar`,
